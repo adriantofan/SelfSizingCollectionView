@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1F20851A4AF3CD008D843C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F20841A4AF3CD008D843C /* AppDelegate.swift */; };
+		BF1F20871A4AF3CD008D843C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F20861A4AF3CD008D843C /* ViewController.swift */; };
+		BF1F208A1A4AF3CD008D843C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1F20881A4AF3CD008D843C /* Main.storyboard */; };
+		BF1F208C1A4AF3CD008D843C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1F208B1A4AF3CD008D843C /* Images.xcassets */; };
+		BF1F208F1A4AF3CD008D843C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1F208D1A4AF3CD008D843C /* LaunchScreen.xib */; };
+		BF1F209B1A4AF3CD008D843C /* SelfSizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F209A1A4AF3CD008D843C /* SelfSizingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1F20951A4AF3CD008D843C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1F20771A4AF3CC008D843C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1F207E1A4AF3CD008D843C;
+			remoteInfo = SelfSizing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1F207F1A4AF3CD008D843C /* SelfSizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1F20831A4AF3CD008D843C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1F20841A4AF3CD008D843C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF1F20861A4AF3CD008D843C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF1F20891A4AF3CD008D843C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF1F208B1A4AF3CD008D843C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF1F208E1A4AF3CD008D843C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF1F20941A4AF3CD008D843C /* SelfSizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1F20991A4AF3CD008D843C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1F209A1A4AF3CD008D843C /* SelfSizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1F207C1A4AF3CD008D843C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1F20911A4AF3CD008D843C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1F20761A4AF3CC008D843C = {
+			isa = PBXGroup;
+			children = (
+				BF1F20811A4AF3CD008D843C /* SelfSizing */,
+				BF1F20971A4AF3CD008D843C /* SelfSizingTests */,
+				BF1F20801A4AF3CD008D843C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1F20801A4AF3CD008D843C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F207F1A4AF3CD008D843C /* SelfSizing.app */,
+				BF1F20941A4AF3CD008D843C /* SelfSizingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1F20811A4AF3CD008D843C /* SelfSizing */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F20841A4AF3CD008D843C /* AppDelegate.swift */,
+				BF1F20861A4AF3CD008D843C /* ViewController.swift */,
+				BF1F20881A4AF3CD008D843C /* Main.storyboard */,
+				BF1F208B1A4AF3CD008D843C /* Images.xcassets */,
+				BF1F208D1A4AF3CD008D843C /* LaunchScreen.xib */,
+				BF1F20821A4AF3CD008D843C /* Supporting Files */,
+			);
+			path = SelfSizing;
+			sourceTree = "<group>";
+		};
+		BF1F20821A4AF3CD008D843C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F20831A4AF3CD008D843C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF1F20971A4AF3CD008D843C /* SelfSizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F209A1A4AF3CD008D843C /* SelfSizingTests.swift */,
+				BF1F20981A4AF3CD008D843C /* Supporting Files */,
+			);
+			path = SelfSizingTests;
+			sourceTree = "<group>";
+		};
+		BF1F20981A4AF3CD008D843C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1F20991A4AF3CD008D843C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1F207E1A4AF3CD008D843C /* SelfSizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1F209E1A4AF3CD008D843C /* Build configuration list for PBXNativeTarget "SelfSizing" */;
+			buildPhases = (
+				BF1F207B1A4AF3CD008D843C /* Sources */,
+				BF1F207C1A4AF3CD008D843C /* Frameworks */,
+				BF1F207D1A4AF3CD008D843C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfSizing;
+			productName = SelfSizing;
+			productReference = BF1F207F1A4AF3CD008D843C /* SelfSizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF1F20931A4AF3CD008D843C /* SelfSizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1F20A11A4AF3CD008D843C /* Build configuration list for PBXNativeTarget "SelfSizingTests" */;
+			buildPhases = (
+				BF1F20901A4AF3CD008D843C /* Sources */,
+				BF1F20911A4AF3CD008D843C /* Frameworks */,
+				BF1F20921A4AF3CD008D843C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1F20961A4AF3CD008D843C /* PBXTargetDependency */,
+			);
+			name = SelfSizingTests;
+			productName = SelfSizingTests;
+			productReference = BF1F20941A4AF3CD008D843C /* SelfSizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1F20771A4AF3CC008D843C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					BF1F207E1A4AF3CD008D843C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BF1F20931A4AF3CD008D843C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BF1F207E1A4AF3CD008D843C;
+					};
+				};
+			};
+			buildConfigurationList = BF1F207A1A4AF3CC008D843C /* Build configuration list for PBXProject "SelfSizing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1F20761A4AF3CC008D843C;
+			productRefGroup = BF1F20801A4AF3CD008D843C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1F207E1A4AF3CD008D843C /* SelfSizing */,
+				BF1F20931A4AF3CD008D843C /* SelfSizingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1F207D1A4AF3CD008D843C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1F208A1A4AF3CD008D843C /* Main.storyboard in Resources */,
+				BF1F208F1A4AF3CD008D843C /* LaunchScreen.xib in Resources */,
+				BF1F208C1A4AF3CD008D843C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1F20921A4AF3CD008D843C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1F207B1A4AF3CD008D843C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1F20871A4AF3CD008D843C /* ViewController.swift in Sources */,
+				BF1F20851A4AF3CD008D843C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1F20901A4AF3CD008D843C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1F209B1A4AF3CD008D843C /* SelfSizingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF1F20961A4AF3CD008D843C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1F207E1A4AF3CD008D843C /* SelfSizing */;
+			targetProxy = BF1F20951A4AF3CD008D843C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF1F20881A4AF3CD008D843C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1F20891A4AF3CD008D843C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1F208D1A4AF3CD008D843C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1F208E1A4AF3CD008D843C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1F209C1A4AF3CD008D843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1F209D1A4AF3CD008D843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1F209F1A4AF3CD008D843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfSizing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF1F20A01A4AF3CD008D843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfSizing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF1F20A21A4AF3CD008D843C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SelfSizingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSizing.app/SelfSizing";
+			};
+			name = Debug;
+		};
+		BF1F20A31A4AF3CD008D843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SelfSizingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSizing.app/SelfSizing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1F207A1A4AF3CC008D843C /* Build configuration list for PBXProject "SelfSizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1F209C1A4AF3CD008D843C /* Debug */,
+				BF1F209D1A4AF3CD008D843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1F209E1A4AF3CD008D843C /* Build configuration list for PBXNativeTarget "SelfSizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1F209F1A4AF3CD008D843C /* Debug */,
+				BF1F20A01A4AF3CD008D843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF1F20A11A4AF3CD008D843C /* Build configuration list for PBXNativeTarget "SelfSizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1F20A21A4AF3CD008D843C /* Debug */,
+				BF1F20A31A4AF3CD008D843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1F20771A4AF3CC008D843C /* Project object */;
+}
