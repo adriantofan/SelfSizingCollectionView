@@ -46,4 +46,7 @@ static NSString * const reuseIdentifier = @"Cell";
   label.backgroundColor = [UIColor redColor];
   return cell;
 }
+//-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+//  return CGSizeMake(self.view.frame.size.width, 25.0);
+//}
 @end
