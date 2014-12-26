@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40751E661A4DC42800D9462C /* ViewControllerObjcC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40751E651A4DC42800D9462C /* ViewControllerObjcC.m */; };
 		BF1F20851A4AF3CD008D843C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F20841A4AF3CD008D843C /* AppDelegate.swift */; };
 		BF1F20871A4AF3CD008D843C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F20861A4AF3CD008D843C /* ViewController.swift */; };
-		BF1F208A1A4AF3CD008D843C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1F20881A4AF3CD008D843C /* Main.storyboard */; };
 		BF1F208C1A4AF3CD008D843C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1F208B1A4AF3CD008D843C /* Images.xcassets */; };
 		BF1F208F1A4AF3CD008D843C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1F208D1A4AF3CD008D843C /* LaunchScreen.xib */; };
 		BF1F209B1A4AF3CD008D843C /* SelfSizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F209A1A4AF3CD008D843C /* SelfSizingTests.swift */; };
@@ -26,11 +26,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40751E631A4DC42800D9462C /* SelfSizing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfSizing-Bridging-Header.h"; sourceTree = "<group>"; };
+		40751E641A4DC42800D9462C /* ViewControllerObjcC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerObjcC.h; sourceTree = "<group>"; };
+		40751E651A4DC42800D9462C /* ViewControllerObjcC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerObjcC.m; sourceTree = "<group>"; };
 		BF1F207F1A4AF3CD008D843C /* SelfSizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1F20831A4AF3CD008D843C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1F20841A4AF3CD008D843C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF1F20861A4AF3CD008D843C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF1F20891A4AF3CD008D843C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF1F208B1A4AF3CD008D843C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF1F208E1A4AF3CD008D843C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF1F20941A4AF3CD008D843C /* SelfSizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,10 +81,12 @@
 			children = (
 				BF1F20841A4AF3CD008D843C /* AppDelegate.swift */,
 				BF1F20861A4AF3CD008D843C /* ViewController.swift */,
-				BF1F20881A4AF3CD008D843C /* Main.storyboard */,
 				BF1F208B1A4AF3CD008D843C /* Images.xcassets */,
 				BF1F208D1A4AF3CD008D843C /* LaunchScreen.xib */,
 				BF1F20821A4AF3CD008D843C /* Supporting Files */,
+				40751E641A4DC42800D9462C /* ViewControllerObjcC.h */,
+				40751E651A4DC42800D9462C /* ViewControllerObjcC.m */,
+				40751E631A4DC42800D9462C /* SelfSizing-Bridging-Header.h */,
 			);
 			path = SelfSizing;
 			sourceTree = "<group>";
@@ -192,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1F208A1A4AF3CD008D843C /* Main.storyboard in Resources */,
 				BF1F208F1A4AF3CD008D843C /* LaunchScreen.xib in Resources */,
 				BF1F208C1A4AF3CD008D843C /* Images.xcassets in Resources */,
 			);
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40751E661A4DC42800D9462C /* ViewControllerObjcC.m in Sources */,
 				BF1F20871A4AF3CD008D843C /* ViewController.swift in Sources */,
 				BF1F20851A4AF3CD008D843C /* AppDelegate.swift in Sources */,
 			);
@@ -236,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF1F20881A4AF3CD008D843C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF1F20891A4AF3CD008D843C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF1F208D1A4AF3CD008D843C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +332,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SelfSizing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SelfSizing/SelfSizing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SelfSizing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SelfSizing/SelfSizing-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +406,7 @@
 				BF1F20A01A4AF3CD008D843C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1F20A11A4AF3CD008D843C /* Build configuration list for PBXNativeTarget "SelfSizingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				BF1F20A31A4AF3CD008D843C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
