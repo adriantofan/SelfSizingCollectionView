@@ -20,7 +20,7 @@ class CollectionViewCell:UICollectionViewCell{
 //    return CGSizeMake(targetSize.width,25.0)
 //  }
 //  
-  required init(coder aDecoder: NSCoder) {
+  required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     initSubviews()
   }
@@ -35,7 +35,7 @@ class ViewController: UICollectionViewController,UICollectionViewDelegateFlowLay
     super.viewDidLoad()
     collectionView?.registerClass(CollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
     let estimatedSize = CGSize(width: view.frame.size.width, height: 25.0)
-    let flowLayout = collectionViewLayout as UICollectionViewFlowLayout
+    let flowLayout = collectionViewLayout as! UICollectionViewFlowLayout
 //    flowLayout.itemSize = estimatedSize
     flowLayout.estimatedItemSize = estimatedSize
     flowLayout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -51,7 +51,7 @@ class ViewController: UICollectionViewController,UICollectionViewDelegateFlowLay
   }
   
   override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as CollectionViewCell
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
     cell.contentView.backgroundColor = UIColor.lightGrayColor()
     cell.label.text = "\(indexPath.row)"
     return cell
